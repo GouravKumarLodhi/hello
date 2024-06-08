@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter the name"/><br>
+        <label for="dob">Date of Birth:</label>
+        <input id="dob" type="date" placeholder="Enter your date of birth"/><br>
+        <label for="gender">Gender:</label>
+        <span>Male</span>
+        <input id="male" name="gender" type="radio" value="male"/>
+        <span>Female</span>
+        <input id="female" name="gender" type="radio" value="female"/>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email"/><br>
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="number" placeholder="Enter your mobile number"/><br>
+        <label for="address">Address:</label>
+        <input id="address" type="text" placeholder="Enter your address"/>
+    </fieldset>
+    <fieldset>
+        <legend>Account Details</legend>
+        <label for="username">Username:</label>
+        <input id="username" type="text" placeholder="Enter your username"/><br>
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="Enter your password"/><br>
+        <label for="confirm_password">Confirm Password:</label>
+        <input id="confirm_password" type="password" placeholder="Enter your password"/>
+    </fieldset>
+    <fieldset>
+        <legend>Preferences</legend>
+        <label for="favorite_color">Favorite Color:</label>
+        <input id="favorite_color" type="color"/><br>
+        <label for="profile_picture">Upload Profile Picture:</label>
+        <input id="profile_picture" type="file"/><br>
+        <label for="interests">Interests:</label><br>
+        <input id="traveling" name="interests" type="checkbox" value="traveling"/>
+        <label for="traveling">Traveling</label><br>
+        <input id="coding" name="interests" type="checkbox" value="coding"/>
+        <label for="coding">Coding</label><br>
+        <input id="reading" name="interests" type="checkbox" value="reading"/>
+        <label for="reading">Reading</label>
+    </fieldset>
+    <button type="submit">submit</button>
+</body>
+</html>
